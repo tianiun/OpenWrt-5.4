@@ -12,8 +12,8 @@ name: openwrt-5.4Fine
 
 on:
   repository_dispatch:
-  schedule:
-    - cron: 0 22 7,17,27 * *
+  # schedule:
+  #   - cron: 0 22 7,17,27 * *
   workflow_dispatch:
     inputs:
       ssh:
